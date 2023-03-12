@@ -1,5 +1,7 @@
 import ThemeSwitcher from "./components/ThemeSwitcher"
 import ThemeColorsSwitcher from "./components/ThemeColorsSwitcher"
+import Calculator from "./components/Calculator";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -19,8 +21,9 @@ export default function App() {
               the most effective selling prices.
             </p>
           </div>
-
           {/* 任务：calculator 计算器 */}
+          <Calculator />
+          <FAQ />
         </div>
       </div>
     </main>
